@@ -59,13 +59,13 @@ symmetric-file-encryption-python/
 
 ```bash
 # Com chave de 128 bits
-python src/cifra_arquivo.py encrypt \
+python cifra_arquivo.py encrypt \
   -i mensagem_original.txt \
   -o mensagem_cifrada_128.txt \
   -k 128
 
 # Com chave de 256 bits
-python src/cifra_arquivo.py encrypt \
+python cifra_arquivo.py encrypt \
   -i mensagem_original.txt \
   -o mensagem_cifrada_256.txt \
   -k 256
@@ -74,7 +74,7 @@ python src/cifra_arquivo.py encrypt \
 ### Decifrar um arquivo
 
 ```bash
-python src/cifra_arquivo.py decrypt \
+python cifra_arquivo.py decrypt \
   -i mensagem_cifrada_128.txt \
   -o mensagem_decifrada.txt
 ```
