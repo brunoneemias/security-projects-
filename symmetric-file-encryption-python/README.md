@@ -42,16 +42,11 @@ Bibliotecas padrão utilizadas: `hashlib`, `hmac`, `os`, `base64`, `argparse`
 ```
 symmetric-file-encryption-python/
 │
-├── src/
-│   └── cifra_arquivo.py       # Código principal
-│
-├── examples/
-│   ├── mensagem_original.txt
-│   ├── mensagem_cifrada_128.txt
-│   └── mensagem_cifrada_256.txt
-│
-├── docs/
-│   └── algoritmo.md           # Documentação técnica detalhada
+├── cifra_arquivo.py       # Código principal
+│  
+├── mensagem_original.txt
+│   mensagem_cifrada_128.txt
+│   mensagem_cifrada_256.txt
 │
 └── README.md
 ```
