@@ -60,13 +60,13 @@ symmetric-file-encryption-python/
 ```bash
 # Com chave de 128 bits
 python src/cifra_arquivo.py encrypt \
-  -i examples/mensagem_original.txt \
+  -i mensagem_original.txt \
   -o mensagem_cifrada_128.txt \
   -k 128
 
 # Com chave de 256 bits
 python src/cifra_arquivo.py encrypt \
-  -i examples/mensagem_original.txt \
+  -i mensagem_original.txt \
   -o mensagem_cifrada_256.txt \
   -k 256
 ```
