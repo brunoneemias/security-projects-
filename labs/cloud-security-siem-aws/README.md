@@ -2,6 +2,8 @@
 
 > Implementação de uma solução de SIEM open-source com Graylog integrado ao ecossistema AWS, com coleta, análise e monitoramento de eventos de segurança em nuvem.
 
+📄 [Ver documentação completa (PDF)](https://1drv.ms/b/c/3dca12016f762561/IQAeEKU8foL0Sa8agSn_yBpHAW2SNysANehaqftKfDqcUhA?e=7VvUUX)
+
 ---
 
 ## 📋 Sobre o Projeto
@@ -103,6 +105,7 @@ Devido às restrições do ambiente **AWS Learn Lab**, não foi possível aplica
 
 ## 📚 Referências
 
+- [📄 Documentação do Projeto (PDF)](https://1drv.ms/b/c/3dca12016f762561/IQAeEKU8foL0Sa8agSn_yBpHAW2SNysANehaqftKfDqcUhA?e=7VvUUX)
 - [Documentação AWS Security Lake](https://aws.amazon.com/security-lake/)
 - [Graylog Docker](https://github.com/Graylog2/graylog-docker)
 - [Deploying Graylog in AWS EKS](https://github.com/pmaxtim/deploying_graylog_in_aws_eks)
